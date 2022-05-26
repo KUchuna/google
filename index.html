@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>google clone</title>
+</head>
+<body>
+    <!-- start of the navigation bar-->
+    <nav class="nav-bar">
+        <ul class="nav-items">
+            <li><a href="#">Gmail</a></li>
+            <li><a href="#" id="photos">სურათები</a></li>
+            <li>
+                <a href="#">
+                    <div class="menu-icon">
+                        <span>
+                        </span>
+                        <span>
+                        </span>
+                        <span>
+                        </span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#"><div class="profile-picture">
+                    <img src="icons/unnamed.png">
+                </div></a>
+            </li>
+        </ul>
+    </nav>
+    <!-- end of the navigation bar -->
+
+    <!-- start of the main section (logo and search-bar)-->
+    <div class="main-section">
+        <a href="#"><div class="google-logo">
+            <img src="icons/google.png">
+        </div></a>
+    </div>
+    <div class="search-section">
+        <div class="search-container">
+            <div class="search-icon"><img src="icons/search.png"/></div>
+            <input type="text" class="search-bar">
+            <div class="microphone"><img src="icons/micro.png" alt=""></div>
+        </div>
+        <div class="search-buttons">
+            <button id="search">
+                Google ძებნა
+            </button>
+            <button id="lucky">
+                იღბალს მივენდობი
+            </button>
+        </div>
+    </div>
+    <div class="language-selector">
+        <p><span id="selector">Google ხელმისაწვდომია შემდეგ ენაზე:</span> <a href="#" id="language">English</a></p>
+    </div>
+    <!-- end of the main section -->
+
+    <!-- start of the footer-->
+    <footer class="footer">
+        <div class="current-location" id="location">
+            საქართველო
+        </div>
+        <div class="end-list">
+            <ul class="end-list-one">
+                <li id="about">შესახებ</li>
+                <li id="ad">რეკლამა</li>
+                <li id="business">ბიზნესისთვის</li>
+                <li id="how">როგორ მუშაობს ძიება</li>
+            </ul>
+            <ul class="end-list-two">
+                <li id="secret">კონფედენციალური</li>
+                <li id="rules">წესები</li>
+                <li id="settings">პარამეტრები</li>
+            </ul>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
