@@ -194,6 +194,7 @@ a {
     flex-direction: column;
     font-size: 15px;
     color: #9aa0a6;
+    bottom: 100px;
 }
 
 .current-location {
